@@ -20,7 +20,7 @@
   	<ul>
     	<li><a href="<?php echo base_url(); ?>">Home</a></li>
         <li><a href="<?php echo base_url(); ?>admin/About">About Us</a></li>
-        <li><a href="<?php echo base_url(); ?>admin/login">Login</a></li>
+        <li><a href="<?php echo base_url(); ?>admin/Login">Login</a></li>
         <li><a href="<?php echo base_url(); ?>admin/Kontak">Kontak</a></li>
         <li><a href="http://is.its.ac.id" target="_blank">Website Pendukung</a></li>
 

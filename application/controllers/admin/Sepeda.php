@@ -8,7 +8,7 @@ class Sepeda extends CI_Controller {
 
 	public function index() {
 		$query = $this->sepeda_model->daftar_sepeda();
-		$data = array('title' 	=> 'Content Management System',
+		$data = array('title' 	=> 'Histori Peminjaman Sepeda',
 					'sepeda'	=> $query,
 					'isi' 		=> 'admin/sepeda/sepeda_view');
 		$this->load->view('admin/layout/wrapper', $data);
@@ -21,7 +21,7 @@ class Sepeda extends CI_Controller {
 		$this->form_validation->set_rules('isi','Isi sepeda','required');
 
 		if ($this->form_validation->run() === FALSE) {
-			$data = array('title' 	=> 'Menambah Sepeda - TUTORIAL-IT',
+			$data = array('title' 	=> 'Menambah Sepeda',
 							'isi'	=> 'admin/sepeda/tambah_sepeda'
 							);
 			$this->load->view('admin/layout/wrapper', $data);

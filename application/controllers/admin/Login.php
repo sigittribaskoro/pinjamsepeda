@@ -35,6 +35,7 @@ class Login extends CI_Controller {
 	// Berfungsi untuk menghapus session atau logout
 	function logout() {
 		session_destroy();
-		redirect('admin/login');
+		redirect(base_url());
+		//redirect('admin/login');
 		}
 }

@@ -18,8 +18,8 @@
 		<p>
 			<label for="status_sepeda">Status Sepeda</label>
 			<select name="status_sepeda" id="status_sepeda">
-				<option value="Publish">Publikasikan</option>
-				<option value="Draft">Simpan sebagai draft</option>
+				<option value="Publish">Dipinjam</option>
+				<option value="Draft">Tersedia</option>
 			</select>
 			<!-- UNTUK KEPERLUAN PENGUJIAN, ID USER KITA SET MANUAL DULU -->
 			<input name="id_user" type="hidden" id="id_user" value="1">

@@ -1,5 +1,5 @@
 <div class="konten">
-	<h1 align="center">Content Management System</h1>
+	<h1 align="center">Histori Peminjaman Sepeda</h1>
 	<div align="right">
 		<a href="<?php echo base_url() ?>admin/sepeda/tambah" class="tambah">Tambah Sepeda</a>
 	</div>

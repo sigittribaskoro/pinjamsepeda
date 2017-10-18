@@ -7,7 +7,7 @@ class Home extends CI_Controller {
 	}
 
 	public function index() {
-	$data = array('title'=>'KPPL D - 2016',
+	$data = array('title'=>'KPPL D - 2017',
 		'sepeda'	=>$this->sepeda_model->daftar_sepeda(),
 		'isi'		=>'home/index_home'
 		);
