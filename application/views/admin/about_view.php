@@ -35,8 +35,8 @@
           <p>Adapun Anggota Kelompok kami untuk KPPL adalah sebagai berikut :</p>
           <p>
           <ul>
-              <li>Arymasu Godhein Ndoen</li>
-              <li>Gede Doran Andika</li>
+              <li>Sigit Tri Baskoro</li>
+              <li>Adham Adihatmojo</li>
               <li>Nur Rochman Darmawan</li>
           </ul>
           </p>
