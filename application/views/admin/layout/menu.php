@@ -7,13 +7,7 @@
 				<li><a href="<?php echo base_url(); ?>admin/sepeda/tambah">Tambah Sepeda</a></li>
 			</ul>
 		</li>
-		<li><a href="<?php echo base_url(); ?>admin/user" class="MenuBarItemSubmenu">User</a>
-			<ul>
-				<li><a href="<?php echo base_url(); ?>admin/user">Data User</a></li>
-				<li><a href="<?php echo base_url(); ?>admin/user/tambah">Tambah User</a></li>
-			</ul>
-		</li>
-		<li><a href="<?php echo base_url(); ?>admin/dashboard/config">Konfigurasi</a></li>
+		
 	</ul>
 </nav>
 <script type="text/javascript">

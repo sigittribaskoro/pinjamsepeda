@@ -7,11 +7,15 @@ class Home extends CI_Controller {
 	}
 
 	public function index() {
-	$data = array('title'=>'KPPL D - 2017',
+            if ($this->session->has_userdata('username')){
+                redirect('admin/dashboard');
+            } else {
+                $data = array('title'=>'KPPL D - 2017',
 		'sepeda'	=>$this->sepeda_model->daftar_sepeda(),
 		'isi'		=>'home/index_home'
 		);
 	$this->load->view('layout/wrapper', $data);
+            }	
 	}
 
 	// Fungsi untuk membaca sepeda

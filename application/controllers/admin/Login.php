@@ -34,8 +34,10 @@ class Login extends CI_Controller {
 
 	// Berfungsi untuk menghapus session atau logout
 	function logout() {
-		session_destroy();
-		redirect(base_url());
+            $this->session->unset_userdata('username');            
+            $this->session->unset_userdata('password');
+            session_destroy();
+            redirect(base_url());
 		//redirect('admin/login');
 		}
 }

@@ -17,8 +17,8 @@
 		<?php foreach($sepeda as $list) { ?>
 		<tr>
 			<td>
-				<a href="<?php echo base_url() ?>home/read/<?php echo $list['slug'] ?>" target="_blank">
-					<?php echo $list['jenis_sepeda']; ?></a>
+				<!--<a href="<?php echo base_url() ?>home/read/<?php echo $list['slug'] ?>" target="_blank"></a>-->
+					<?php echo $list['jenis_sepeda']; ?>
 			</td>
 			<td><?php echo $list['status_sepeda']; ?></td>
 			<td><?php echo $list['nama']; ?></td>

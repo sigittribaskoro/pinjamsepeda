@@ -16,7 +16,6 @@
               <input type="submit" name="submit2" id="submit2" value="Masuk">
               <input type="reset" name="submit3" id="submit3" value="Reset">
             </p>
-            <p><a href="login.php?ref=lupa">Lupa password?</a> | <a href="<?php echo base_url(); ?>admin/daftar">Daftar jadi anggota</a></p>
           </form>
       </div>
 </div>
